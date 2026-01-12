@@ -15,6 +15,7 @@ class Circle:
         return self.radius
     def set_radius(self, new_radius):
         self.radius = new_radius
-C=Circle(10.0)
+C=Circle(10)
 C.set_radius(5)
+
 print(C.get_radius())
